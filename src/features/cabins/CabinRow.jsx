@@ -89,19 +89,6 @@ function CabinRow({ cabin }) {
 					<span>&mdash;</span>
 				)}
 				<div>
-					<button disabled={isCreating} onClick={handleDuplicate}>
-						<HiSquare2Stack />
-					</button>
-					<button onClick={() => setShowForm((show) => !show)}>
-						<HiPencil />
-					</button>
-					<button
-						onClick={() => deleteCabin(cabinId)}
-						disabled={isDeleting}
-					>
-						<HiTrash />
-					</button>
-
 					<Modal>
 						<Menus.Menu>
 							<Menus.Toggle id={cabinId} />
