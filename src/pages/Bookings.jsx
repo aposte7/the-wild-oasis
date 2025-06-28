@@ -1,7 +1,7 @@
-import BookingDetail from '../features/bookings/BookingDetail'
+import BookingTable from '../features/bookings/BookingTable'
 
 function Booking() {
-	return <BookingDetail />
+	return <BookingTable />
 }
 
 export default Booking
